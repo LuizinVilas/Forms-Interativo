@@ -28,13 +28,16 @@ const Users = [
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-    {
+   <App/>
+  </StrictMode>
+)
+
+/*<App /> 
+/*{
       Users.map(User => {
         return (
           <UserCard key={User.Id} Username = {User.Username} Password = {User.Password} Contas = {User.Contas}/>
         )
       })
     }
-  </StrictMode>
-)
+*/  

@@ -1,15 +1,16 @@
-
-import './App.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import Login from './Login'
+import CreateAccount from './CreateAccount'
 
 function App() {
   return (
     <>
-     <div className='Container'>
-        <h1>Login</h1>
-        <input type="text" placeholder='Username'/>
-        <input type="password" placeholder='Password'/>
-        <button>Submit</button>
-     </div>
+     <Router>
+        <Routes>
+            <Route path="/" element={< Login/>} />
+            <Route path='/CreateAccount' element={<CreateAccount/>} />
+        </Routes>
+      </Router>
     </>
   )
 }

@@ -41,13 +41,13 @@ h1 {
     padding: 20px;
     margin: 25vh auto 2vh auto;
     border-radius: 8px;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     background-color: hsla(0, 0%, 100%, 0.1);
     backdrop-filter: blur(100px);
 
     & input {
         font-size: 0.9em;
-        font-weight: 600;
+        font-weight: bold;
         width: 100%;
         margin: 5px;
         padding: 0.6em 0.8em;
@@ -64,7 +64,7 @@ h1 {
 
     & button {
         font-size: 0.9em;
-        font-weight: 600;
+        font-weight: bolder;
         width: 100%;
         margin: 5px;
         padding: 0.6em 0.8em;
@@ -78,6 +78,13 @@ h1 {
         cursor: pointer;
         animation: ButtonAnimation 1s infinite ease-in-out;
         transition: 1000ms;
+    }
+
+    & a {
+        margin: 8px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #ffffff;
     }
 
 }
