@@ -22,6 +22,20 @@
     }
 }
 
+@keyframes FadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#FadeInElement{
+    animation: FadeIn 2s ease;
+    animation-delay: 0s;
+}
+
 
 h1 {
     margin-bottom: 4%;
